@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on 我的面经</title>
     <link>http://kepler11235.github.io/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on 我的面经</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Apr 2021 19:22:13 +0800</lastBuildDate><atom:link href="http://kepler11235.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First</title>
-      <link>http://kepler11235.github.io/post/first/</link>
+      <title>字节跳动面经</title>
+      <link>http://kepler11235.github.io/post/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8-%E8%A7%86%E9%A2%91%E6%9E%B6%E6%9E%84%E9%9D%A2%E7%BB%8F/</link>
       <pubDate>Thu, 08 Apr 2021 19:22:13 +0800</pubDate>
       
-      <guid>http://kepler11235.github.io/post/first/</guid>
-      <description>Hello Hugo  aaa bbb ccc  </description>
+      <guid>http://kepler11235.github.io/post/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8-%E8%A7%86%E9%A2%91%E6%9E%B6%E6%9E%84%E9%9D%A2%E7%BB%8F/</guid>
+      <description>字节跳动&amp;ndash;视频架构 一面 (44min)  自我介绍 + 简历提问（全是NLP） + 一些项目 const int *a 和 int *const a的区别 空的class的大小 TCP连接时，网络比较差的时候发生了什么 TCP四次挥手流畅，等待时间有啥用 死锁发生的条件 死锁预防 死锁避免 甲乙轮流抛硬币，先抛到正面就赢，求甲获胜的概率 z字遍历二叉树 k个一组反转链表，发现我做过就换了一道 给定一个无序的整数，找出其中缺失的第一个值，比如 8 3 2 4 5 9 10 12 6 11，第一个缺失的值是7  二面 （35min）  个人简历情况了解 输入一个域名到响应的全过程 HTTP一些概念 死锁的四个条件 进程线程协程区别 进程通信方式 线程能不能共享内存 有没有写过进程通信，有没有用过Socket 概率题，五十四张扑克牌，均匀分成三堆，大小王在同一堆的概率 知道哪些数据库 redis和mysql的区别 数组中的第k大元素 栈和队列的区别；口述如何用两个栈实现队列 自旋锁和互斥锁的区别  </description>
+    </item>
+    
+    <item>
+      <title>平安人寿面经</title>
+      <link>http://kepler11235.github.io/post/%E5%B9%B3%E5%AE%89%E4%BA%BA%E5%AF%BFnlp%E9%9D%A2%E7%BB%8F/</link>
+      <pubDate>Thu, 08 Apr 2021 19:22:13 +0800</pubDate>
+      
+      <guid>http://kepler11235.github.io/post/%E5%B9%B3%E5%AE%89%E4%BA%BA%E5%AF%BFnlp%E9%9D%A2%E7%BB%8F/</guid>
+      <description>一面（技术面）  这一面主要侧重技术，大约面试了44分钟，开视频
+   自我介绍
+ 因为专业问题被询问了一下    介绍NLP项目经历
+  word2vec + textCNN做文本分类
+ word2vec的模型有哪几种，有什么优化方法 textCNN的流程（反馈说没回答好，自我感觉是对的，可能是我没表达清楚吧）    BERT + finetune 做文本分类
+ BERT的流程和特点 BERT的注意力计算方式（KQV矩阵怎么来的） finetune怎么做（我说了除了cls外接神经网络以外，还有把所最后一层的所有值都用上的方法）    一些细碎的点
+ softmax怎么计算的    闲聊
+ 一周能工作几天 什么时候能来入职 etc&amp;hellip;      代码测试，写一个K-Means的模型
+  二面（leader面）  这一面侧重一些综合能力（技术广度， 只开语音
+   个人情况
+ 没有自我介绍，但是问了一些个人情况，比如专业，大四啥时候毕业之类的    项目经历
+ 文本摘要  用了什么模型（模型结构） 效果怎样 个人感受   文本分类  用了什么方法 因为我提到了word2vec，问我word2vec的优化方法有哪几种 word2vec和 end2end 的方法哪种好   编程实践  平时用什么语言 java 和 C++ 的直观感受，有啥不同（我尽力从面向对象之类的原理来扯 java的gc机制原理（我回答的比较浅 java的动态绑定（我不是很清楚，他也给我找台阶下      互动提问</description>
     </item>
     
   </channel>
